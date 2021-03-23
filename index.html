@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <title>School Website</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body bgcolor="white">
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">My School</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#schoolName"><button>School Name</button></a></li>
+                <li><a href="#campusLife"><button>Campus Life</button></a></li>
+                <li><a href="#achievements"><button>Achievements</button></a></li>
+                <li><a href="#what'sNew"><button>What's New</button></a></li>
+                <li><a href="#contactUs"><button>Contact Us</button></a></li>
+            </ul>
+            <div class="announcement">
+                <marquee id="marqueeStyle" behavior="scroll" direction="left" scrollamount="12" bgcolor="yellow">*** Feel Free To Ask Queries On rustomjeessc@gmail.com ***</marquee>
+                <img src="RIS%20School%20Image.jpg">
+            </div>
+        </div>
+        <div class="container">
+            <div class="campus life">
+                <h6 class="text-success text-capitalize">The best places in the school are the canteen,library,computer lab and playground.
+                    There was an incident where me and my group of friends were in the library of our school and when we sat down to read some books one of my classmates came running into the library and tripped up.But,luckily he somehow got his balance and slid on his feet and sat on a chair.He was so lucky that the librarian was not there in the library because if she would've been there then he woud've had to go back to class and not sit in the library.
+                </h6>
+            </div>
+            <div class="container" id="achievements">
+                <h2 class="text-success text-capitalize">School Achievements</h2>
+            </div>
+            <div class="bg-primary achievement1" data-toggle="collapse" data-target="#school_achievement1">
+                International And National Olympiads
+                <i class="fa fa-sort-desc"></i>
+            </div>
+
+            <div id="school_achievement1" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                    <img src="Olympiad%20Image.jpg" class="img-responsive img-thumbnail">
+                </div>
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievement2">
+                    <h5 class="text-success text-left text-capitalize">Many students participated in International and National Olympiads and some of them got gold medals and went forward in the 2nd round of these olympiads.</h5>
+                    <p class="text-success">13 Students awarded with Gold Medal, Certificate & Qualified for Level 2 for various Olympiads such as English,Maths and Science </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="what's new">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 canteen_li">
+                    <h4>New School Canteen</h4>
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        The School has renovated the Canteen and made it much bigger.It can now accomodate about 30-40 students in line for their food.
+                    </p>
+                </li>
+            </ul>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 library_li">
+                    <h4>New & Improved Library</h4>
+                    <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                        The arrangement of the Books in the School Library was changed and it was better and much more organised and all the torn books were replaced with new ones and everyone in the school liked the improvements done.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container" id="ourAlumni">
+            <div class="modal-fade" id="school_alumni1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Bhakti Rathod</h4>
+
+                            <div class="modal-body">
+                                <img src="Bhakti%20Rathod.jpg">
+                                <p class="p_modal">Bhakti Rathod is an Indian actress and theatre artist from Mumbai.<br>
+                                    <a href="https://en.wikipedia.org/wiki/Bhakti_Rathod"><b>To Know More</b></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+
+            <div class="container">
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                    <h2 class="text-capitalize">Contact Us</h2>
+                </div>
+
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.976353591956!2d72.85590001744382!3d19.239862300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0dc30528233%3A0x9ac1c24edc3b79d!2sRustomjee%20International%20School!5e0!3m2!1sen!2sin!4v1615046342289!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="details">
+                    <img src="School%20Principal%20Animated%20Image.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <h3>Principal Name - </h3>
+                    <h4>Mrs.Sahira Teerandaz</h4>
+                    <div class="contact-1">
+                        <a href="mailto:rustomjeeSSC@gmail.com?Subject=Hi">
+                            <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;rustomjeessc@gmail.com</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;School ID</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;28942362/28942562</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+</body>
+
+</html>

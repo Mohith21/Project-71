@@ -1,0 +1,50 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+#marquee {
+    font-size: 30px;
+}
+
+#achievementsID {
+    padding-bottom: 10px;
+}
+
+.achievement1 {
+    font-size: 13px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.achievement i {
+    float: right;
+}
+
+#h2 {
+    text-decoration-color: darkorange;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container {
+    text-align: center;
+    font-size: 13px;
+    text-decoration-color: darkslateblue;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+#footer {
+    height: 20px;
+    background-color: white;
+}
